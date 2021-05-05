@@ -8,6 +8,11 @@ body {
     color: white;
 }
 
+nav {
+    position: fixed;
+    width: 100%;
+}
+
 a {
     display: flex;
     align-items: center;
@@ -23,22 +28,6 @@ a {
     width: 30px;
 }
 
-.header {
-    position: relative;
-    padding-bottom: 70%;
-}
-
-.my-nav {
-    position: absolute;
-    width: 100%;
-    z-index: 999;
-    background: none;
-}
-
-.my-carousel {
-    position: absolute;
-    top: 0;
-}
 
 footer, hr, .card, .bg-icono {
     background-color: #2198ad;
@@ -49,10 +38,3 @@ footer {
     align-items: center;
     justify-content: space-evenly;
 }
-
-
-
-
-
-
-
