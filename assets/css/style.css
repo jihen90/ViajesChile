@@ -1,0 +1,58 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open sans'sans-serif;
+    background-color: black;
+    color: white;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo-texto {
+    text-decoration: none;
+    color: white;
+}
+
+.icono-logo {
+    width: 30px;
+}
+
+.header {
+    position: relative;
+    padding-bottom: 70%;
+}
+
+.my-nav {
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    background: none;
+}
+
+.my-carousel {
+    position: absolute;
+    top: 0;
+}
+
+footer, hr, .card, .bg-icono {
+    background-color: #2198ad;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+
