@@ -22,10 +22,6 @@ nav a {
     width: 30px;
 }
 
-.row.match-my-cols {
-    overflow: hidden;
-}
-
 .card {
     border-color: #fff6f69d;
 }
