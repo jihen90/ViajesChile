@@ -22,6 +22,10 @@ nav a {
     width: 30px;
 }
 
+.mycarousel {
+    height: 1em;
+}
+
 .card {
     border-color: #fff6f69d;
 }
