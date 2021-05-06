@@ -8,12 +8,7 @@ body {
     color: white;
 }
 
-nav {
-    position: fixed;
-    width: 100%;
-}
-
-a {
+nav a {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -28,8 +23,15 @@ a {
     width: 30px;
 }
 
+.row.match-my-cols {
+    overflow: hidden;
+}
 
-footer, hr, .card, .bg-icono {
+.card {
+    border-color: #fff6f69d;
+}
+
+nav, footer, hr, .card, .bg-icono {
     background-color: #2198ad;
 }
 
@@ -37,4 +39,30 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer li {
+    float: left;
+}
+
+footer i {
+    font-size: 1.5em;
+}
+
+@media (max-width: 576px) {
+    footer ul {
+        padding-right: 2.5%;
+    }
+    footer h4 {
+        padding-left: 2.5%;
+    }
 }
