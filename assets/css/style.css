@@ -4,8 +4,8 @@ html {
 
 body {
     font-family: 'Open sans'sans-serif;
-    background-color: black;
-    color: white;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 nav a {
@@ -15,8 +15,7 @@ nav a {
 }
 
 .logo-texto {
-    text-decoration: none;
-    color: white;
+    color: #ffffff;
 }
 
 .icono-logo {
@@ -32,7 +31,7 @@ nav a {
 }
 
 nav, footer, hr, .card, .bg-icono {
-    background-color: #2198ad;
+    background-color: #0f98a1;
 }
 
 footer {
@@ -43,7 +42,7 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: white;
+    color: #ffffff;
 }
 
 footer ul {
@@ -59,10 +58,12 @@ footer i {
 }
 
 @media (max-width: 576px) {
-    footer ul {
-        padding-right: 2.5%;
+    footer {
+        display: flex;
+        align-items: stretch;
+        justify-content: center;
     }
-    footer h4 {
-        padding-left: 2.5%;
+    footer h5 {
+        margin-top: 2%;
     }
 }
